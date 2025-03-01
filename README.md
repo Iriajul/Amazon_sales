@@ -40,23 +40,19 @@ This project is an end-to-end data analysis solution aimed at extracting valuabl
    - **Currency Formatting**: Use `.replace()` to handle and format currency values for analysis.
    - **Validation**: Check for any remaining inconsistencies and verify the cleaned data.
 
-### 7. Feature Engineering
-   - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
-   - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
-
-### 8. Load Data into MySQL 
+### 7. Load Data into MySQL 
    - **Set Up Connections**: Connect to MySQL  using `sqlalchemy` and load the cleaned data into each database.
    - **Table Creation**: Set up tables in MySQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
-### 9. SQL Analysis: Complex Queries and Business Problem Solving
+### 8. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute advanced SQL queries to answer essential business questions, such as:
      - Identifying top-selling products and categories based on sales performance.
      - Analyzing the relationship between product pricing, discount percentages, and ratings.
      - Identifying the most popular customer review trends and user feedback.
      - Understanding customer behavior by analyzing review patterns, ratings, and product preferences.
    - **Documentation**: provide clear explanations for each query, outlining its objective, methodology, and key insights, ensuring transparency and reproducibility in the analysis.
-### 10. Project Publishing and Documentation
+### 9. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
    - **Project Publishing**: Publish the completed project on GitHub or any other version control platform, including:
      - The `README.md` file (this document).
